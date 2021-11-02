@@ -1,4 +1,4 @@
-class Ai extends Player {
+class human1 extends Player {
     constructor(name){
         super(name);
     }
