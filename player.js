@@ -1,9 +1,13 @@
-class Player {
+"use strict"
+class Players {
     constructor(name){
-    this.name = name;   
+    this.name = name;
+        
     } 
 
-displayInformation(){
-    console.log(this.name);
 }
+
+
+module.exports = {
+    Players: Players
 }
