@@ -1,8 +1,8 @@
 "use strict"
 
 const prompt = require ("prompt-sync")();
-const {Players} = require ("./Players");
-class Human1 extends Players {
+const {Player} = require ("./Player");
+class Human1 extends Player {
     
 constructor (){ 
     console.log ("Please enter players name")

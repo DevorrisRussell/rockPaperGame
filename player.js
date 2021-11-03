@@ -1,5 +1,5 @@
 "use strict"
-class Players {
+class Player {
     constructor(name){
     this.name = name;
         
@@ -9,5 +9,5 @@ class Players {
 
 
 module.exports = {
-    Players: Players
+    Player: Player
 }

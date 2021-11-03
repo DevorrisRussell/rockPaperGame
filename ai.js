@@ -16,5 +16,5 @@ class Ai extends Player {
     */
 }
 module.exports = {
-    aiName: aiName
+    Ai: Ai
 }
