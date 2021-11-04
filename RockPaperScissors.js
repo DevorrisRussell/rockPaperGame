@@ -18,6 +18,11 @@ class rockPaperScissors{
     }
     runGamePlay(){
         console.log(`Let the game between ${this.player1} and ${this.player2} Begin!!`);
+        if ( "Rock" == "Rock") {
+        console.log("its a tie!");}
+         else if ( "Rock" == "Lizard")  {
+            console.log
+        }
         
         
       
