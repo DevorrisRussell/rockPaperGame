@@ -1,4 +1,7 @@
 "use strict"
+
+const Human1 = require("./Human1");
+
 class Player {
     constructor(name){
     this.name = name;
@@ -7,7 +10,7 @@ class Player {
     this.gestures = ["Rock", "Paper", "Scissors", "Lizzard", "Spock"];
         }
         shoot(opposingPlayer){
-            opposingPlayer.gestures = opposingPlayer.gestures - [];
+            opposingPlayer.gestures = opposingPlayer.gestures - [""];
             console.log(`The shoot did ${this.selectedGesture} NICE!`)
         }
 }

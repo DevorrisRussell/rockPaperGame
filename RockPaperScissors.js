@@ -12,13 +12,13 @@ class rockPaperScissors{
     
     displayWelcome(){
         console.log("Let's Play A Game of Rock, Paper, Scissors!");
-        console.log(`Which player do you choose to play? \n 1 - ${this.player1.name} vs ${this.player2.name}`);
+        console.log("Chose your player name");
         this.player1 = new Human1();
         this.player2 = new Human1();
      }
 
     runGamePlay(){
-        console.log(`Let the game between ${this.player1} and ${this.player2} Begin!!`);
+        console.log(`Let the game between ${this.player1.name} and ${this.player2.name} Begin!!`);
 
         while(this.player1 > this.gesture && this.player2 > this.gesture){
             console.log(`press 1 to shoot with ${this.player1.gestures} \npress 2 to shoot with ${this.player2.gestures}`);
