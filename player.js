@@ -6,14 +6,11 @@ class Player {
     this.selectedGesture = "";
     this.gestures = ["Rock", "Paper", "Scissors", "Lizzard", "Spock"];
         }
-        chooseGesture(){
-            console.log(this.gestures);
+        shoot(opposingPlayer){
+            opposingPlayer.gestures = opposingPlayer.gestures - this.gestures;
+            console.log(`The shoot did ${this.selectedGesture} NICE!`)
+        }
 }
-}
-
-
-
-
 module.exports = {
     Player: Player
 }
