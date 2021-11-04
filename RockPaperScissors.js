@@ -14,7 +14,7 @@ class rockPaperScissors{
         console.log("Let's Play A Game of Rock, Paper, Scissors!");
         console.log("Chose your player name");
         this.player1 = new Human1();
-        this.player2 = new Human1();
+        this.player2 = new Ai;
      }
 
     runGamePlay(){

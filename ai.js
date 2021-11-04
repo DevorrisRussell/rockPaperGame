@@ -7,9 +7,9 @@ class Ai extends Player {
 
     constructor() {
         console.log("Prepare to face your Destroyer");
-        this.Name = "Terminal Illness";
-        this.selectedGesture = Math.floor(Math.random()  * 5); 
-        super(aiName);
+        let computer = "Terminal Illness";
+        let selectedGesture = Math.floor(Math.random()  * 5); 
+        super(computer, selectedGesture);
     }
 }
 
