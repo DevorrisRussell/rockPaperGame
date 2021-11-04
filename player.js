@@ -7,7 +7,7 @@ class Player {
     this.gestures = ["Rock", "Paper", "Scissors", "Lizzard", "Spock"];
         }
         shoot(opposingPlayer){
-            opposingPlayer.gestures = opposingPlayer.gestures - this.gestures;
+            opposingPlayer.gestures = opposingPlayer.gestures - [];
             console.log(`The shoot did ${this.selectedGesture} NICE!`)
         }
 }
