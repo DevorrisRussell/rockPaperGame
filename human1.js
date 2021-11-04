@@ -6,9 +6,9 @@ class Human1 extends Player {
     
 constructor (){ 
     console.log ("Please enter players name")
-    let playerName1 = prompt();
-    let playerName2 = prompt();
-    super(playerName1, playerName2);
+    let john = prompt();
+    let buddy = prompt();
+    super(john, buddy);
 
     }    
     chooseGesture(){
