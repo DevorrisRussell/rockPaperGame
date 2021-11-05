@@ -13,12 +13,12 @@ class rockPaperScissors{
     displayWelcome(){
         console.log("Let's Play A Game of Rock, Paper, Scissors!");
         console.log("Chose your player name");
-        console.log("please choose your shoot sign between 5 options"[""]); 
+          prompt("please choose your shoot sign between 5 options"[""]); 
         this.player1 = new Human1();
         this.player2 = new Ai();
         }
     runGamePlay(){
-        console.log(`Let the game between ${this.player1} and ${this.player2} Begin!!`);
+        console.log(`Let the game between ${this.player1.name} and ${this.player2.name} Begin!!`);
         if (this.gesture == this.gesture) {
             console.log("its a tie!");
         }else if 
@@ -39,8 +39,8 @@ class rockPaperScissors{
         }else {
             console.log("please choose an option!");
         }
-        }
-    signPowerRock(){
+        
+
         
         if(userChoice == "Rock" && userChoice == "Scissors"){
             console.log("Rock Wins");
@@ -51,8 +51,8 @@ class rockPaperScissors{
         }else {
                 console.log("Spock Wins");
         }
-        }
-    signPowerPaper(){
+        
+    
         
         if(userChoice == "Paper" && userChoice == "Rock"){
             console.log("Paper Wins");
@@ -63,8 +63,7 @@ class rockPaperScissors{
         }else if (userChoice == "Spock"){
             console.log("Paper Wins");
         }
-        }
-    signPowerScissors(){
+
         
         if(userChoice == "Scissors" && userChoice == "Rock"){
             console.log("Rock Wins");
@@ -75,8 +74,7 @@ class rockPaperScissors{
         }else if (userChoice == "Spock"){
             console.log("Spock Wins");
         }
-        }
-    signPowerLizard(){
+        
         
         if(userChoice == "Lizard" && userChoice == "Rock"){
             console.log("Rock Wins");
@@ -87,8 +85,8 @@ class rockPaperScissors{
         }else if (userChoice == "Spock"){
             console.log("Spock Wins");
             }
-            }      
-    signPowerSpock(){
+            
+
         
         if(userChoice == "Spock" && userChoice == "Rock"){
             console.log("Rock Wins");
@@ -98,8 +96,8 @@ class rockPaperScissors{
             console.log("Paper Wins");
         }else if (userChoice == "Lizard"){
             console.log("Lizard Wins");
-        }
-        }            
+        } 
+    }        
      //you can add some of the stuff about the score here
       // if(this.player1.score < 3 && this.player2.score > 3){
             // console.log("you lose");     
