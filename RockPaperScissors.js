@@ -19,6 +19,17 @@ class rockPaperScissors{
      }
 
     runGamePlay(){
+<<<<<<< HEAD
+        console.log(`Let the game between ${this.player1} and ${this.player2} Begin!!`);
+        if ( "Rock" == "Rock") {
+        console.log("its a tie!");}
+         else if ( "Rock" == "Lizard")  {
+            console.log
+        }
+        
+        
+      
+=======
         console.log(`Let the game between ${this.player1.name} and ${this.player2.name} Begin!!`);
 
 
@@ -61,6 +72,7 @@ class rockPaperScissors{
         this.displayWelcome();
         this.runGamePlay();
         this.declareWinner();
+>>>>>>> 480cf4e3ac53e5011dd98fa712c5058ea0e1eb36
     }
 }
 
