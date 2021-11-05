@@ -4,6 +4,7 @@ const Human1 = require("./Human1");
 
 class Player {
     constructor(name){
+    this.gesture;
     this.name = name;
     this.score = 0;
     this.selectedGesture = "";
