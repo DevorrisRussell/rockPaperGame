@@ -19,7 +19,6 @@ class rockPaperScissors{
 
     runGamePlay(){
         console.log(`Let the game between ${this.player1.name} and ${this.player2.name} Begin!!`);
-
         while(this.player1 > this.gesture && this.player2 > this.gesture){
             console.log(`press 1 to shoot with ${this.player1.gestures} \npress 2 to shoot with ${this.player2.gestures}`);
             let userChoice = prompt();
