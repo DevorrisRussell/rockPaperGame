@@ -1,4 +1,5 @@
-"use strict"
-const {rockPaperScissors} = require("./RockPaperScissors");
-let player12Ai = new rockPaperScissors();
-player12Ai.runGame();
+const prompt = require("prompt-sync")();
+const {Game} = require("./Game")
+
+let tableOne = new Game()
+tableOne.runGame()

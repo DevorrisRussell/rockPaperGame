@@ -1,20 +1,15 @@
 "use strict"
 
-const Human1 = require("./Human1");
-
-class Player {
+class Player{
     constructor(name){
-    this.gesture;
-    this.name = name;
-    this.score = 0;
-    this.selectedGesture = "";
-    this.gesture = ["Rock", "Paper", "Scissors", "Lizzard", "Spock"];
-        }
-        shoot(opposingPlayer){
-            opposingPlayer.gesture = opposingPlayer.gesture - [""];
-            console.log(`The shoot did ${this.selectedGesture} NICE!`)
-        }
+        this.name = name;
+        this.gestures = ["Scissors","Paper" ,"Rock" ,"Lizard" ,"Spock"];
+        this.score = 0
+        this.gesture  ;
+    }
+ 
+    chooseGesture(){
+    
+    }
 }
-module.exports = {
-    Player: Player
-}
+module.exports = Player;
